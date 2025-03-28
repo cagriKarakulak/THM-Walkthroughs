@@ -1,4 +1,4 @@
- ![c9030a2b60bb7d1cf4fcb6e5032526d3](https://github.com/user-attachments/assets/1fccd7c7-a3e3-414c-85f9-337b55ee033d)
+![c9030a2b60bb7d1cf4fcb6e5032526d3](https://github.com/user-attachments/assets/1fccd7c7-a3e3-414c-85f9-337b55ee033d)
  
 # Steel Mountain Write-Up
 ## TASK 1 - Introduction
@@ -55,6 +55,22 @@ set RPORT 8080
 ## TASK 3 - Privilege Escalation
 
 Take close attention to the CanRestart option that is set to true. What is the name of the service which shows up as an unquoted service path vulnerability?
+
+1) Download the script (https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1)
+
+2) Upload the script from meterpreter session
+
+![Untitled](https://github.com/user-attachments/assets/0f37002b-a7e0-41a2-9817-594243222e8c)
+
+3) Load powershell in meterpreter (type "load powershell" into meterpreter)
+
+4) Type . .\Powerup.ps1
+
+5) Type Invoke-AllChecks
+
+![Untitled](https://github.com/user-attachments/assets/d880fac8-5106-4520-8b72-e02d993c38dd)
+
+
 
 
 
