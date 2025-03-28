@@ -1,2 +1,2 @@
-# THM-Walkthroughts
+# THM-Walkthroughs
 TryHackMe CTFs
