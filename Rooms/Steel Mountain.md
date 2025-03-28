@@ -1,6 +1,6 @@
 ![c9030a2b60bb7d1cf4fcb6e5032526d3](https://github.com/user-attachments/assets/1fccd7c7-a3e3-414c-85f9-337b55ee033d)
  
-# Steel Mountain Write-Up
+# Steel Mountain Walkthrough
 ## TASK 1 - Introduction
 
 Who is the employee of the month?
