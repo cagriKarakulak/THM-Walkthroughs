@@ -88,12 +88,21 @@ sc stop AdvancedSystemCareService9
 
 After that exit the shell.
 
-3) Go to C:\Program Files (x86)\IObit\ and upload ASCService.exe file which we generated than copy it to C:\Program Files (x86)\IObit\Advanced SystemCare
+3) Go to C:\Program Files (x86)\IObit\Advanced SystemCare and upload ASCService.exe file which we generated.
 
+![adsa](https://github.com/user-attachments/assets/25367f9a-79ac-4166-9acb-387c55ae4dd0)
 
+4) We need to listen our reverse shell. Open new terminal and ...
 
+![adsa](https://github.com/user-attachments/assets/e3ad13f7-1405-42db-a0de-d106bd728ed3)
 
+5) Return to meterpreter, open shell and "sc start AdvancedSystemCareService9"
 
+![adsa](https://github.com/user-attachments/assets/7cbb3251-f21e-4e2f-a35c-c7ec4ddc4f89)
+
+6) After that return to netcat terminal which we listining our reverse shell
+
+![adsa](https://github.com/user-attachments/assets/00fa06a6-da7a-4915-8cc4-61b7f4da7074)
 
 
 (9af5f314f57607c00fd09803a587db80)
